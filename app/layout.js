@@ -1,10 +1,6 @@
-import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import localFont from 'next/font/local'
-
-
-const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Margad Batsaikhan",
@@ -34,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={openSauceOne.className}>
-        <main className="mx-auto px-12 max-w-6xl">
+        <main className="mx-auto px-12 max-w-6xl max-lg:px-2">
           <Header />
           {children}
         </main>

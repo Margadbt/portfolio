@@ -24,6 +24,9 @@ module.exports = {
       maxWidth: {
         'img': '460px',
       },
+      borderColor: {
+        'header': 'rgb(0, 0, 0, 0.2)'
+      }
     },
   },
   plugins: [],
