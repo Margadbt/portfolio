@@ -7,7 +7,7 @@ export default function Information() {
     return (
         <div className="bg-[url('/information_bg.png')] h-[500px] max-md:h-[350px] bg-cover bg-center flex justify-between flex-col rounded-3xl p-10 m-10px">
             <div>
-                <p className=" font-bold text-[40px] max-md:text-xl leading-10">Hello, I’m Abo, a product Designer With 7 years of experience.</p>
+                <p className=" font-bold text-[40px] max-md:text-xl leading-10">Hello, I’m Margad, Software Engineer and Graphic Designer</p>
                 <p className="mt-12 max-md:mt-2 max-md:text-sm">I care a lot about using design for positive impact. and enjoy creating user-centric, delightful, and human experiences.</p>
             </div>
             <div className="flex gap-3 font-semibold text-sm">
